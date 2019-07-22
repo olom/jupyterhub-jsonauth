@@ -27,5 +27,7 @@ setup(
             'json = jsonauthenticator:JsonAuthenticator',
         ],
     },
+    install_requires=[
+        'jsonschema'
+    ]
 )
-
